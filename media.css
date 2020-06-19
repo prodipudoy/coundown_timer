@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+/*media*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.timer_wrapper {
+	    width: 100%;
+	    margin: 0 auto;
+	    background-color: #4C4C4C;
+	}
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.timer_wrapper {
+	    width: 100%;
+	    margin: 0 auto;
+	    background-color: #4C4C4C;
+	}
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.timer_wrapper {
+	    width: 100%;
+	    margin: 0 auto;
+	    background-color: #4C4C4C;
+	}
+
+	#day{
+		float: left;
+		width: 22%;
+		text-align: center;
+		display: inline-block;
+		padding: 30px 10px;
+	}
+	#hours{
+		float: left;
+		width: 23%;
+		text-align: center;
+		display: inline-block;
+		padding: 30px 10px;
+	}
+	#minutes{
+		float: left;
+		width: 23%;
+		text-align: center;
+		display: inline-block;
+		padding: 30px 10px;
+	}
+	#minutes span{
+		font-size: 20px;
+	}
+	#seconds{
+		float: left;
+		width: 23%;
+		text-align: center;
+		display: inline-block;
+		padding: 30px 10px;
+	}
+	#day span, #hours span, #minutes span, #seconds span{
+		font-size: 20px;
+		font-weight: 300;
+	}
+
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+	.coundown {
+	    width: 99%;
+	    margin: 0 auto;
+	    overflow: hidden;
+	    background-color: #F54337;
+	    border-bottom: 3px solid white;
+	}
+	.title_box h2 {
+	    font-size: 34px;
+	    text-align: center;
+	    color: #F54337;
+	    background-color: white;
+	}
+}

@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.timer_wrapper{
+	width: 60%;
+	margin: 0 auto;
+	background-color: #4C4C4C
+
+}
+
+
+/*coundown start*/
+.coundown{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #F54337;
+	border-bottom: 3px solid white;
+}
+.title_box h2{
+	font-size: 40px;
+	text-align: center;
+	color: #F54337;
+	background-color: white;
+}
+#down{
+	font-size: 40px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+	
+}
+#day{
+	float: left;
+	width:20%;
+	text-align: center;
+	display: inline-block;
+	padding: 30px 10px;
+}
+#hours{
+	float: left;
+	width: 20%;
+	text-align: center;
+	display: inline-block;
+	padding: 30px 10px;
+}
+#minutes{
+	float: left;
+	width: 20%;
+	text-align: center;
+	display: inline-block;
+	padding: 30px 10px;
+}
+#minutes span{
+	font-size: 20px;
+}
+#seconds{
+	float: left;
+	width: 20%;
+	text-align: center;
+	display: inline-block;
+	padding: 30px 10px;
+}
+#day span, #hours span, #minutes span, #seconds span{
+	font-size: 20px;
+	font-weight: 300;
+}
+#claim{
+    width: 300px;
+    background-color: #F54337;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid white;
+    transition: .4s;
+}
+#claim:hover{
+	transform: skewX(-10deg);
+}
+.claim_box a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	padding: 20px;
+	display: block;
+}
+
+/*coundown end*/
